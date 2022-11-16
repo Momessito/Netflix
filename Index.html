@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="icon" type="imagem/png" href="https://cdn-icons-png.flaticon.com/512/732/732228.png" />
+</head>
+<style>
+    body {
+        overflow: hidden;
+        margin: 0;
+    }
+
+    * {
+        width: 100%;
+        background-color: #141414;
+        transition: all 0.1s;
+        cursor: pointer;
+        opacity: 1;
+        transition: opacity .4s ease-out;
+    }
+
+    .container {
+        max-width: 80%;
+        background-color: none;
+        margin-top: 0%;
+        margin-left: 50%;
+        transform: translate(-50%,20%);
+
+
+        background-color: none;
+    }
+
+    .h1 {
+        color: #fff;
+        font-size: 3.5vw;
+        font-weight: unset;
+        width: 100%;
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+    .icons {
+        background-color: none;
+        max-width: 100%;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: normal;
+  align-content: normal;
+        background-color: none;
+    }
+
+    .card:hover img {
+        border: 4px solid white;
+    }
+
+    .card:hover h2 {
+        color: white;
+    }
+
+    .card {
+        width: 12.5%;
+        height: 12.5%;
+        margin: 3% 1.2%;
+    }
+
+    .card img {
+        border-radius: 5px;
+        border: 4px solid rgba(255, 255, 255, 0);
+    }
+
+    h2 {
+        font-family: sans-serif;
+        font-weight: 400;
+        font-size: 1.5vw;
+        text-align: center;
+        color: grey;
+        margin-top: 5px;
+    }
+
+    .gerenciar {
+        background-color: transparent;
+        border: 1px solid grey;
+        color: grey;
+        cursor: pointer;
+        display: block;
+        font-size: 1vw;
+        letter-spacing: 2px;
+        margin: 2em 0 2em;
+        padding: 0.8em 1.5em;
+        max-width: 15%;
+        margin-left: 50%;
+        transform: translate(-50%);
+
+    }
+
+    .gerenciar:hover {
+        color: white;
+        border-color: white;
+    }
+
+    .fade {
+        width: 100%;
+        height: 60px;
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, .7) 10%, transparent);
+    }
+</style>
+
+<body>
+    <div class="fade"></div>
+    <div class="container">
+        <div class="h1">Quem está assistindo?</div>
+        <ul class="icons">
+            <li class="card">
+                <img
+                    src="https://occ-0-1317-2430.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABd1B2sFZv59PCVFdhL-OXENKv6XIPZ0Q5XZ0v096ELca6ac_8SKNluPF5ydSf4wwn9G0AonvGNb2DtMbw3rOtK-WRcXbTzd4LpLY.png?r=2da">
+                <h2>Erick Lindo</h2>
+            </li>
+            <li class="card">
+                <img
+                    src="https://occ-0-1317-2430.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABQsfWR9E6b8X4ZYLNQjyI1mxikF-3RpUCSFQRJ8NITo4LuwQz0bBH6cfvL2SVY7lYRv4LCxdKAumSZvyk5t0SA2KvPZG6KYJzSwi.png?r=f05">
+                <h2>Preta perfeita</h2>
+            </li>
+            <li class="card">
+                <img
+                    src="https://occ-0-1317-2430.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABTIar4-ye_CCwp4ymZ6AfUYLL7plorDzZ85o3p66YePrHrz8pprNj4H7GNEK_Yrb1jOiYursy0-ho34qOoSl2aygvTGDrx5Ep8cF.png?r=656">
+                <h2>Elly e Theo</h2>
+            </li>
+            <li class="card">
+                <img
+                    src="https://occ-0-1317-2430.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABS8xFk2msoUIXS4trIwR_u4mK5hCeNHja6KK82jViX-ryJTg6MEuRCtSKlwpiuUFV5dE0CVMKiwUwP_q9RtDq5S0_3udyJ91cXZL.png?r=b38">
+                <h2>Professor</h2>
+            </li>
+            <li class="card">
+                <img
+                    src="https://occ-0-1317-2430.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABSA3rt14XWwAt3HPPkk612DbeTp3Papj-b5weBs_3icCohx1Di5Tp2LGFiOQ1lbMUZkn85L6n9eDki_3rtSbhhOy-fGgbgl7Mya9.png?r=b7b">
+                <h2>MOMEMOSCA</h2>
+            </li>
+        </ul>
+        <button class="gerenciar">Gerenciar perfis</button>
+    </div>
+</body>
+
+<script>
+
+</script>
+
+</html>
